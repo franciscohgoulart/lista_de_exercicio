@@ -14,7 +14,7 @@ elseif ($valor > 500) {
 }
 
 elseif ($valor > 1000) {
-    $desconto = $valor * 0.30
+    $desconto = $valor * 0.30;
 }
 
  $valorFinal = $valor - $desconto;
